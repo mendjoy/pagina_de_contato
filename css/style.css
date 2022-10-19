@@ -119,3 +119,42 @@
     background-color: white;
 }
 
+/*mobile*/
+
+@media screen  and (max-width: 768px){
+    #main-container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #form-container, #adress-container{
+        flex: 1 1 100%;
+    }
+
+    #form-container{
+        order: -1;
+        padding: 20px;
+    }
+    
+    #form-container h2 {
+        margin-bottom: 25px;
+    }
+
+    #contact-form{
+        width: 100%;
+    }
+
+    #contact-form input, #contact-form label, #contact-form textarea{
+       border-color: #aaa;
+    }
+
+    #adress-container{
+        background-position: 0;
+        height: 500px;
+    }
+    #adress-content{
+        top: 25%;
+        left: 25%;
+    }
+
+}
